@@ -18,9 +18,7 @@ class TestBodyFatIndex:
     self.driver.get("https://www.calculator.net/body-fat-calculator.html")
     time.sleep(3)
     
-    gender = "female"
-      
-    gender = "female"  # Change to "male" as needed
+    gender = "male"
 
     male_radio = self.driver.find_element(By.ID, "csex1")
     female_radio = self.driver.find_element(By.ID, "csex2")
